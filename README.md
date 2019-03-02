@@ -34,3 +34,5 @@ images/blur/Original_5.jpg, Per: 0.00032, blur extent: 12.265, is blur: True
 images/blur/Original_359.jpg, Per: 0.00000, blur extent: 121.937, is blur: True
 images/blur/Original_217.jpg, Per: 0.00016, blur extent: 28.323, is blur: True
 ```
+
+The [paper](http://tonghanghang.org/pdfs/icme04_blur.pdf) defines two parameters in order to configure the algorithm. The first is **threshold   
