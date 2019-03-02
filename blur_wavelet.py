@@ -193,7 +193,7 @@ if __name__ == '__main__':
             else:
                 classification = False
             results.append({"input_path": input_path, "per": per, "blur extent": blurext, "is blur": classification})
-            print("{0}, Per: {1}, blur extent: {2}, is blur: {3}".format(input_path, per, blurext, classification))
+            print("{0}, Per: {1:.5f}, blur extent: {2:.3f}, is blur: {3}".format(input_path, per, blurext, classification))
             
             
         except Exception as e:
