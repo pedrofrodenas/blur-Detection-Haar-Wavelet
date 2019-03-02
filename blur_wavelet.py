@@ -70,7 +70,7 @@ def blur_detect(img, threshold):
     x3 = 0
     y3 = 0
     
-    # Sliding windows limit of horizontal dimension
+    # Sliding windows limit on horizontal dimension
     Y_limit = N1-sizeN1
     
     while count < N_iter:
