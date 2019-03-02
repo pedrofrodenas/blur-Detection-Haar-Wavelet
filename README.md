@@ -35,4 +35,4 @@ images/blur/Original_359.jpg, Per: 0.00000, blur extent: 121.937, is blur: True
 images/blur/Original_217.jpg, Per: 0.00016, blur extent: 28.323, is blur: True
 ```
 
-The [paper](http://tonghanghang.org/pdfs/icme04_blur.pdf) defines two parameters in order to configure the algorithm. The first is **threshold**   
+The [paper](http://tonghanghang.org/pdfs/icme04_blur.pdf) defines two parameters in order to configure the algorithm. The first is **threshold**. It is used to select if a pixel of Haar transform image is considered as Edge Point. Default value is 35. The smaller threshold, the more sensitive is the algorithm to blur. 
