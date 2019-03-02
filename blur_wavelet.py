@@ -178,7 +178,7 @@ if __name__ == '__main__':
             #logging.info("processing {0}".format(input_path))
             I = cv2.imread(input_path)
             per, blurext = blur_detect(I, args.threshold)
-            if per < args.threshold:
+            if per < args.MinZero:
                 classification = True
             else:
                 classification = False
