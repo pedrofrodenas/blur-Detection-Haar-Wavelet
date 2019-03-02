@@ -168,7 +168,7 @@ if __name__ == '__main__':
     parser.add_argument('-i', '--input_dir', dest="input_dir", type=str, required=True, help="directory of images")
     parser.add_argument('-s', '--save_path', dest='save_path', type=str, help="path to save output")
     parser.add_argument("-t", "--threshold", dest='threshold', type=float, default=35, help="blurry threshold")
-    parser.add_argument("-d", "--decision", dest='decisionthreshold', type=float, default=0.001, help="Decision Threshold")
+    parser.add_argument("-d", "--decision", dest='MinZero', type=float, default=0.001, help="MinZero Decision Threshold")
     args = parser.parse_args()
     
     results = []
