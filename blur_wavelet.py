@@ -202,6 +202,8 @@ if __name__ == '__main__':
         
     if args.save_path:
         
+        assert os.path.splitext(args.save_path)[1] == ".json", "You must include the extension .json on the end of the save path"
+        
         with open(args.save_path, 'w') as outfile:
             json.dump(results, outfile, sort_keys=True, indent=4)
             outfile.write("\n")
