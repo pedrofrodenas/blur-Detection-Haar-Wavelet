@@ -34,6 +34,7 @@ images/blur/Original_5.jpg, Per: 0.00032, blur extent: 12.265, is blur: True
 images/blur/Original_359.jpg, Per: 0.00000, blur extent: 121.937, is blur: True
 images/blur/Original_217.jpg, Per: 0.00016, blur extent: 28.323, is blur: True
 ```
+#### Configure the edge threshold
 
 The [paper](http://tonghanghang.org/pdfs/icme04_blur.pdf) defines two parameters in order to configure the algorithm. The first is **threshold**. It is used to select if a pixel of Haar transform image is considered as Edge Point. Default value is 35. If you select a smaller threshold, it is more likely an image to be classified as blur.
 
@@ -58,7 +59,7 @@ images/noblur/DSCN0375.JPG, Per: 0.00356, blur extent: 2.422, is blur: False
 
 #### Configure the decision threshold
 
-In the [paper](http://tonghanghang.org/pdfs/icme04_blur.pdf) is called **MinZero**. If **Per** is smaller than **MinZero** the image is classified as blur. The default value is 0.001.
+In the [paper](http://tonghanghang.org/pdfs/icme04_blur.pdf) is called **MinZero**. If **Per** is smaller than **MinZero** the image is classified as blur. The default value is 0.001 .
 In order to configure the **MinZero** threshold, run the script with the flag **-d MIN_ZERO**
 
 ```bash
