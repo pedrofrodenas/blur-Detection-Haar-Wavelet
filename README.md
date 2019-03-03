@@ -120,6 +120,11 @@ E. Mavridaki, V. Mezaris, "No-Reference blur assessment in natural images using 
 
 The dataset consists of undistorted, naturally-blurred and artificially-blurred images for image quality assessment purposes. Download the dataset from here: [http://mklab.iti.gr/files/imageblur/CERTH_ImageBlurDataset.zip](http://mklab.iti.gr/files/imageblur/CERTH_ImageBlurDataset.zip)
 
+#### Paper
+
+This algorithm is based on this [paper](http://tonghanghang.org/pdfs/icme04_blur.pdf)
+
+Tong, Hanghang & Li, Mingjing & Zhang, Hongjiang & Zhang, Changshui. (2004). Blur detection for digital images using wavelet transform. IEEE International Conference on Multimedia and EXPO. 1. 17 - 20 Vol.1. 10.1109/ICME.2004.1394114. 
 
 
 
