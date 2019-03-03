@@ -57,3 +57,5 @@ images/noblur/DSCN0375.JPG, Per: 0.00356, blur extent: 2.422, is blur: False
 ```
 
 #### Save output as .JSON
+
+In order to save the output as .JSON, run the script with the flag **-s SAVE_PATH.json**
