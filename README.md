@@ -58,7 +58,30 @@ images/noblur/DSCN0375.JPG, Per: 0.00356, blur extent: 2.422, is blur: False
 
 #### Configure the decision threshold
 
-In the [paper](http://tonghanghang.org/pdfs/icme04_blur.pdf) is called **MinZero**. If **Per** is smaller than **MinZero** the image is classified as blur.
+In the [paper](http://tonghanghang.org/pdfs/icme04_blur.pdf) is called **MinZero**. If **Per** is smaller than **MinZero** the image is classified as blur. The default value is 0.001.
+In order to configure the **MinZero** threshold, run the script with the flag **-d MIN_ZERO**
+
+```bash
+python blur_wavelet.py -i images/noblur -d 0.005
+```
+
+The output will be
+
+```bash
+images/noblur/DSCN0593.JPG, Per: 0.00459, blur extent: 2.029, is blur: True
+images/noblur/DSCN6481.JPG, Per: 0.00068, blur extent: 5.012, is blur: True
+images/noblur/DSC02100.JPG, Per: 0.00135, blur extent: 1.786, is blur: True
+images/noblur/DSC00700.JPG, Per: 0.00782, blur extent: 1.405, is blur: False
+images/noblur/DSC05345.JPG, Per: 0.00343, blur extent: 0.929, is blur: True
+images/noblur/DSC01910.JPG, Per: 0.00647, blur extent: 1.697, is blur: False
+images/noblur/IMG_0066.JPG, Per: 0.00205, blur extent: 5.373, is blur: True
+images/noblur/IMG_0487.JPG, Per: 0.01045, blur extent: 2.182, is blur: False
+images/noblur/DSC05405.JPG, Per: 0.01310, blur extent: 0.775, is blur: False
+images/noblur/DSCN0375.JPG, Per: 0.00296, blur extent: 2.865, is blur: True
+```
+
+The prediction fails in this case.
+
 
 #### Save output as .JSON
 
