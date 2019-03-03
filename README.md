@@ -126,5 +126,6 @@ This algorithm is based on this [paper](http://tonghanghang.org/pdfs/icme04_blur
 
 Tong, Hanghang & Li, Mingjing & Zhang, Hongjiang & Zhang, Changshui. (2004). Blur detection for digital images using wavelet transform. IEEE International Conference on Multimedia and EXPO. 1. 17 - 20 Vol.1. 10.1109/ICME.2004.1394114. 
 
-
+## License
+(c) 2019 Pedro Rodenas. MIT License
 
