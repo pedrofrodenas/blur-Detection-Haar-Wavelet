@@ -113,7 +113,7 @@ Checking the .json file:
 
 ## Acknowlegements
 
-The sample images have been taken from this [blur image dataset] (https://mklab.iti.gr/results/certh-image-blur-dataset/)
+The sample images have been taken from this blur [image dataset](https://mklab.iti.gr/results/certh-image-blur-dataset/)
 
 E. Mavridaki, V. Mezaris, "No-Reference blur assessment in natural images using Fourier transform and spatial pyramids", Proc. IEEE International Conference on Image Processing (ICIP 2014), Paris, France, October 2014.
 
