@@ -56,6 +56,10 @@ images/noblur/DSC05405.JPG, Per: 0.01503, blur extent: 0.645, is blur: False
 images/noblur/DSCN0375.JPG, Per: 0.00356, blur extent: 2.422, is blur: False
 ```
 
+#### Configure the decision threshold
+
+In the [paper](http://tonghanghang.org/pdfs/icme04_blur.pdf) is called **MinZero**. If **Per** is smaller than **MinZero** the image is classified as blur.
+
 #### Save output as .JSON
 
 In order to save the output as .JSON, run the script with the flag **-s SAVE_PATH.json** . Example: save .json output in the project directory as output.json:
