@@ -64,6 +64,8 @@ In order to save the output as .JSON, run the script with the flag **-s SAVE_PAT
 python blur_wavelet.py -i images/blur -s output.json
 ```
 
+Checking the .json file:
+
 ```json
 [
     {
@@ -77,54 +79,6 @@ python blur_wavelet.py -i images/blur -s output.json
         "input_path": "images/blur/Original_426.jpg",
         "is blur": true,
         "per": 0.0
-    },
-    {
-        "blur extent": 50.951219512195124,
-        "input_path": "images/blur/Original_292.jpg",
-        "is blur": true,
-        "per": 0.0
-    },
-    {
-        "blur extent": 299.5,
-        "input_path": "images/blur/Original_244.jpg",
-        "is blur": true,
-        "per": 0.0
-    },
-    {
-        "blur extent": 10.708385481852316,
-        "input_path": "images/blur/Original_297.jpg",
-        "is blur": false,
-        "per": 0.002821792923811591
-    },
-    {
-        "blur extent": 1445.0,
-        "input_path": "images/blur/Original_254.jpg",
-        "is blur": true,
-        "per": 0.0001729804532087874
-    },
-    {
-        "blur extent": 9.93574297188755,
-        "input_path": "images/blur/Original_6.jpg",
-        "is blur": true,
-        "per": 0.0
-    },
-    {
-        "blur extent": 12.264705882352942,
-        "input_path": "images/blur/Original_5.jpg",
-        "is blur": true,
-        "per": 0.00031969309462915604
-    },
-    {
-        "blur extent": 121.93675889328063,
-        "input_path": "images/blur/Original_359.jpg",
-        "is blur": true,
-        "per": 0.0
-    },
-    {
-        "blur extent": 28.323383084577113,
-        "input_path": "images/blur/Original_217.jpg",
-        "is blur": true,
-        "per": 0.00016038492381716118
     }
 ]
 ```
