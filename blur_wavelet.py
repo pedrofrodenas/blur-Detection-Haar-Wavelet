@@ -156,11 +156,11 @@ def blur_detect(img, threshold):
     Per = np.sum(DAstructure)/np.sum(EdgePoint)
     
     # Step 7
-    if np.sum(RSstructure) == 0:
+    if (np.sum(RGstructure) + np.sum(RSstructure)) == 0:
         
         BlurExtent = 100
     else:
-        BlurExtent = np.sum(BlurC)/np.sum(RSstructure)
+        BlurExtent = np.sum(BlurC) / (np.sum(RGstructure) + np.sum(RSstructure))
     
     return Per, BlurExtent
 
