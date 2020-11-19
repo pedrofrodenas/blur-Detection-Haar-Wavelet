@@ -34,7 +34,7 @@ def blur_detect(img, threshold):
     # Construct the edge map in each scale Step 2
     E1 = np.sqrt(np.power(LH1, 2)+np.power(HL1, 2)+np.power(HH1, 2))
     E2 = np.sqrt(np.power(LH2, 2)+np.power(HL2, 2)+np.power(HH2, 2))
-    E3 = np.sqrt(np.power(LH3, 2)+np.power(LH3, 2)+np.power(HH3, 2))
+    E3 = np.sqrt(np.power(LH3, 2)+np.power(HL3, 2)+np.power(HH3, 2))
     
     M1, N1 = E1.shape
 
