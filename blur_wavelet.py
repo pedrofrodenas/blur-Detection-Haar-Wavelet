@@ -34,7 +34,7 @@ def blur_detect(img, threshold):
     # Construct the edge map in each scale Step 2
     E1 = np.sqrt(np.power(LH1, 2)+np.power(HL1, 2)+np.power(HH1, 2))
     E2 = np.sqrt(np.power(LH2, 2)+np.power(HL2, 2)+np.power(HH2, 2))
-    E3 = np.sqrt(np.power(LH3, 2)+np.power(LH3, 2)+np.power(HH3, 2))
+    E3 = np.sqrt(np.power(LH3, 2)+np.power(HL3, 2)+np.power(HH3, 2))
     
     M1, N1 = E1.shape
 
@@ -156,11 +156,11 @@ def blur_detect(img, threshold):
     Per = np.sum(DAstructure)/np.sum(EdgePoint)
     
     # Step 7
-    if np.sum(RSstructure) == 0:
+    if (np.sum(RGstructure) + np.sum(RSstructure)) == 0:
         
         BlurExtent = 100
     else:
-        BlurExtent = np.sum(BlurC)/np.sum(RSstructure)
+        BlurExtent = np.sum(BlurC) / (np.sum(RGstructure) + np.sum(RSstructure))
     
     return Per, BlurExtent
 
