@@ -129,7 +129,7 @@ Tong, Hanghang & Li, Mingjing & Zhang, Hongjiang & Zhang, Changshui. (2004). Blu
 
 #### Github Users
 
-Thanks to user [@a-hasan-gar](https://github.com/a-hasan-gar) for noticing an implementation error and fixing it.
+Thanks to the user [@a-hasan-gar](https://github.com/a-hasan-gar) for noticing an implementation error and fixing it.
 
 ## License
 (c) 2019 Pedro Rodenas. MIT License
