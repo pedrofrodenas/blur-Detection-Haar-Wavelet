@@ -6,6 +6,10 @@ Blur Detection of Digital Images using Haar Wavelet Transform. This is the imple
 * [opencv-python](https://pypi.python.org/pypi/opencv-python)
 * [PyWavelets](https://pywavelets.readthedocs.io/en/latest/)
 
+```bash
+$ pip install -r requirements.txt
+```
+
 ## How to use
 Make sure python3 and pip is installed. Then, install cv2 and PyWavelets.
 ```bash
