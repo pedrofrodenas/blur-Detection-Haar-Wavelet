@@ -11,12 +11,10 @@ $ pip install -r requirements.txt
 ```
 
 ## How to use
-Make sure python3 and pip is installed. Then, install cv2 and PyWavelets.
+Make sure python3 and pip is installed. Then, run in current working directory
+
 ```bash
-# install opencv-python
-pip install cv2
-# install PyWavelets
-pip install PyWavelets
+$ pip install -r requirements.txt
 ```
 
 To run the python script with the sample images uploaded to this repo.
