@@ -1,4 +1,4 @@
-certifi==2020.12.5
+certifi==2022.12.7
 numpy==1.20.2
 opencv-python==4.5.1.48
 PyWavelets==1.1.1
